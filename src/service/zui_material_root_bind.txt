@@ -1,0 +1,12 @@
+Service Binding: ZUI_MATERIAL_ROOT_BIND
+Type: OData V4 - UI
+Service Definition: ZUI_MATERIAL_ROOT_SRV
+Exposed Entity: Materials
+
+Activation steps in ADT:
+1. Create Service Binding
+2. Select type OData V4 - UI
+3. Activate binding
+4. Publish
+5. Open Preview
+6. Test List Report / Object Page in Fiori Elements

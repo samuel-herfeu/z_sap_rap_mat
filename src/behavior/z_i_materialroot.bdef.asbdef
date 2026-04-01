@@ -1,0 +1,14 @@
+managed implementation in class zcl_bp_i_materialroot unique;
+strict ( 2 );
+
+define behavior for Z_I_MaterialRoot alias MaterialRoot
+persistent table mara
+lock master
+authorization master ( instance )
+{
+  read;
+
+  action checkConsistency result [1] $self;
+
+  validation validatePricing on save { create; update; }
+}

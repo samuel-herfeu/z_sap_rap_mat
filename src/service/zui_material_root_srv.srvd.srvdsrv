@@ -1,0 +1,4 @@
+@EndUserText.label: 'Material Root Service Definition'
+define service ZUI_MATERIAL_ROOT_SRV {
+  expose ZUI_C_MaterialRoot as Materials;
+}
